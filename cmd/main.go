@@ -21,7 +21,7 @@ func init() {
 }
 
 func main() {
-	err := core.PdfObj.Generate(inPut, outPut)
+	err := core.Generate(inPut, outPut)
 	if err != nil {
 		fmt.Println(err)
 		return
