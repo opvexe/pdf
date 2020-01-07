@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8c3636d-d05d-451a-b40f-796d18cae5b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/input/招商证券测试1.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/input/12340c0eb0312784d46b57e1bf26866.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/input/中文的.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/main" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/ocr" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/ocr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/ocr.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/ocr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/senseTime_InputDir/中文的/pdf_000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/senseTime_InputDir/中文的/pdf_001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/senseTime_InputDir/中文的/pdf_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/senseTime_InputDir/中文的/pdf_003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/senseTime_InputDir/中文的/pdf_004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/senseTime_JsonDir/12340c0eb0312784d46b57e1bf26866.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/core.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/dispose.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/dispose.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pdf.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/pdf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/out/pdf_000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/out/pdf_001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/out/pdf_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/中文的.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用说明.md" beforeDir="false" afterPath="$PROJECT_DIR$/使用说明.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +47,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VsZqT6pwAIEARnXpp9zXqtwCkN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -34,19 +59,24 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/v1.0/liunx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmd/input" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/core" />
-      <recent name="$PROJECT_DIR$/cmd" />
-      <recent name="$PROJECT_DIR$/bin/v1.0" />
+      <recent name="$PROJECT_DIR$/cmd/input" />
+      <recent name="$PROJECT_DIR$/bin" />
+      <recent name="$PROJECT_DIR$/cmd/senseTime_InputDir" />
+      <recent name="$PROJECT_DIR$/cmd/senseTime_InputDir/jh_test" />
+      <recent name="$PROJECT_DIR$/cmd/input_pdf/pdf_out_中文的" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd/input" />
+      <recent name="$PROJECT_DIR$/cmd/senseTime_InputDir/中文的" />
+      <recent name="$PROJECT_DIR$/cmd" />
+      <recent name="$PROJECT_DIR$/bin/v1.0/liunx" />
       <recent name="$PROJECT_DIR$/pdf" />
-      <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
   <component name="RunDashboard">

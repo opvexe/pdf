@@ -15,7 +15,7 @@ var (
 
 func init() {
 	flag.StringVar(&inPut, "i", "", "请输入传入文件名，例如 ./test（不包含多级子目录）")
-	flag.StringVar(&outPut, "o", "", "请输入传出文件名,例如 ./sensetime/out")
+	flag.StringVar(&outPut, "o", "", "请输入传出文件名,例如 ./sensetime/out (out文件名需已创建)")
 	flag.Parse()
 	if len(inPut) == 0 || len(outPut) == 0 {
 		flag.PrintDefaults()
@@ -37,8 +37,8 @@ func main() {
 }
 
 type RecvieObj struct {
-	data []byte		//数据
-	fn   string		//文件名
+	data []byte //数据
+	fn   string //文件名
 }
 
 func writeResult(c <-chan *RecvieObj, wg *sync.WaitGroup) {

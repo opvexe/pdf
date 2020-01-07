@@ -185,7 +185,7 @@ func Create(ts *TransData, file string, name string) error {
 			}
 			//获取当前时间戳
 			num := strconv.Itoa(k)
-			n := strings.Split(name,".")[0] +"_" + time.Now().Format("20060102")+"_"+ num
+			n := strings.Split(name, ".")[0] + "_" + time.Now().Format("20060102") + "_" + num
 			err = f.Save(file + "/" + n + ".xlsx")
 			if err != nil {
 				return err
