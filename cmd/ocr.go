@@ -65,7 +65,7 @@ func main() {
 
 		fmt.Println("获取token成功:", token)
 		var (
-			ch          = make(chan *core.Resp, 1000)
+			ch          = make(chan *core.Resp,1000)
 			wg          sync.WaitGroup
 			wgReceiving sync.WaitGroup
 		)
@@ -110,6 +110,8 @@ func main() {
 		close(ch)
 
 		wgReceiving.Wait()
+	}else {
+		fmt.Println("获取Token失败")
 	}
 }
 
