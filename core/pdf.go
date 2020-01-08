@@ -16,7 +16,7 @@ import (
 func Generate(source, destance string) error {
 	s := strings.Split(source, "/")
 	str := s[len(s)-1]
-	hex := strings.Split(str, ".")[1]
+	hex := strings.Split(str, ".")[0]
 	doc, err := fitz.New(source)
 	if err != nil {
 		return err

@@ -91,7 +91,6 @@ func SendHttp(ch chan<- *Resp, wg *sync.WaitGroup, token string, fileName string
 	defer func() {
 		wg.Done()
 	}()
-
 	//发起请求
 	target_url := fmt.Sprintf("https://ai-test.sensetime.com/ocr/tablematch?access_token=%s", token)
 	bodyBuf := &bytes.Buffer{}

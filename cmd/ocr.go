@@ -62,13 +62,13 @@ func main() {
 
 	token := getToken()
 	if len(token) != 0 || token !=""{
-
 		fmt.Println("获取token成功:", token)
 		var (
-			ch          = make(chan *core.Resp,1000)
+			ch          = make(chan *core.Resp,10)
 			wg          sync.WaitGroup
 			wgReceiving sync.WaitGroup
 		)
+
 		wgReceiving.Add(1)
 		go core.ReceivingResults(ch, &wgReceiving, jde)
 		//获取文件目录
@@ -98,17 +98,17 @@ func main() {
 					return
 				}
 				for j := range pdir {
+					fmt.Println("<<<<<<<=============>>>>",j)
+					time.Sleep(300*time.Millisecond)
 					wg.Add(1)
 					go core.SendHttp(ch, &wg, token, f+pdir[j].Name(), "pdf", pdir[j].Name(), tid)
 				}
 			}
 		}
 		wg.Wait()
-
 		time.Sleep(1 * time.Millisecond)
 		//关闭管道
 		close(ch)
-
 		wgReceiving.Wait()
 	}else {
 		fmt.Println("获取Token失败")
